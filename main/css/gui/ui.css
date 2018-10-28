@@ -1,0 +1,23 @@
+.menu_tab {
+  margin: 0;
+  color: #9bb79c;
+  font-family: monospace;
+  font-size: 1.2em;
+  background-color: #1f3241;
+  padding: 5px 15px;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 10px 10px 10px 100px #000;
+
+}
+
+.menu_button {
+  margin: 0;
+  color: #9bb79c;
+  font-family: monospace;
+  font-size: 2em;
+  background-color: #657a73;
+  padding: 12px 30px;
+  width: 100%;
+  z-index: -1;
+}
