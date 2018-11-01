@@ -1,7 +1,14 @@
+
+var playerX = 0;
+
 function move_right() {
-  console.log("right");
+      playerX = playerX + 50;
+      document.getElementsByClassName('player')[0].style = "margin-left: " + playerX + "px;";
+      console.log("right");
 }
 
 function move_left() {
-  console.log("left");
+  playerX = playerX - 50;
+  document.getElementsByClassName('player')[0].style = "margin-left: " + playerX + "px;";
+  console.log("right");
 }
